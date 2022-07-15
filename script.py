@@ -44,10 +44,12 @@ if symbol:
     except:
         st.write("No se puedo loguear")
     try:
-        panel = WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.CLASS_NAME, "panel-body")))
-        mostrar = panel.get_attribute('outerHTML')
-        st.markdown(mostrar, unsafe_allow_html=True)
+        driver.implicitly_wait(20)
+        paneles = WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "panel-body")))
+        for panel in paneles:
+            st.markdown(panel.get_attribute('outerHTML'), unsafe_allow_html=True)
+        
     except:
-        st.write("No se puedo obtener panel")
+        st.write("No se pudo obtener panel")
         
     

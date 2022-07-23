@@ -243,3 +243,230 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658086295725	geckodriver	INFO	Listening on 127.0.0.1:63738
+1658086298826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileinEL6k"
+1658086301079	Marionette	INFO	Marionette enabled
+1658086301086	Marionette	INFO	Listening on port 63752
+WebDriver BiDi listening on ws://localhost:63739
+Read port: 63752
+1658086301340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileinEL6k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63739/devtools/browser/a92ca90d-e457-4a23-84b6-46eff36cbf27
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658086775770	Marionette	INFO	Stopped listening on port 63752
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilepoS3Ik"
+1658086427760	Marionette	INFO	Marionette enabled
+1658086427768	Marionette	INFO	Listening on port 63870
+WebDriver BiDi listening on ws://localhost:63857
+Read port: 63870
+1658086427999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilepoS3Ik\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63857/devtools/browser/cc3feaf4-32b1-4cd0-8b13-eb610d424072
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658086775702	Marionette	INFO	Stopped listening on port 63870
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658086800876	geckodriver	INFO	Listening on 127.0.0.1:64057
+1658086803928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64058" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilerFHIa6"
+1658086805882	Marionette	INFO	Marionette enabled
+1658086805889	Marionette	INFO	Listening on port 64071
+WebDriver BiDi listening on ws://localhost:64058
+Read port: 64071
+1658086806120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilerFHIa6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64058/devtools/browser/adfe53a1-afce-4c8b-aa23-a2df2d9f82e3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658086860579	Marionette	INFO	Stopped listening on port 64071
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658086875715	geckodriver	INFO	Listening on 127.0.0.1:64173
+1658086878765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileMnBFAB"
+1658086880909	Marionette	INFO	Marionette enabled
+1658086880916	Marionette	INFO	Listening on port 64187
+Read port: 64187
+WebDriver BiDi listening on ws://localhost:64174
+1658086881139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileMnBFAB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64174/devtools/browser/85c9404f-f9d7-4af8-a8c5-75b8f6fd8491
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658086900714	Marionette	INFO	Stopped listening on port 64187
+1658087135224	geckodriver	INFO	Listening on 127.0.0.1:64408
+1658087138319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilezDUdIy"
+1658087140214	Marionette	INFO	Marionette enabled
+1658087140220	Marionette	INFO	Listening on port 64424
+WebDriver BiDi listening on ws://localhost:64409
+Read port: 64424
+1658087140451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilezDUdIy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64409/devtools/browser/bd756873-3df8-4487-beb0-a746a43dc929
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658087157734	Marionette	INFO	Stopped listening on port 64424
+!!! error running onStopped callback: TypeError: callback is not a function
+1658087428846	geckodriver	INFO	Listening on 127.0.0.1:64683
+1658087431927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilemDyxio"
+1658087433792	Marionette	INFO	Marionette enabled
+1658087433798	Marionette	INFO	Listening on port 64699
+WebDriver BiDi listening on ws://localhost:64684
+Read port: 64699
+1658087434022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilemDyxio\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64684/devtools/browser/f6a3c0ed-1778-4837-9aaa-8419e210f5fd
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658087678193	Marionette	INFO	Stopped listening on port 64699
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 23696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\Temp\\rust_mozprofilezlo5BS"
+1658087485872	Marionette	INFO	Marionette enabled
+1658087485879	Marionette	INFO	Listening on port 64829
+WebDriver BiDi listening on ws://localhost:64818
+Read port: 64829
+1658087486115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilezlo5BS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64818/devtools/browser/224df416-a61f-4999-bb74-469212f282a2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658087679425	Marionette	INFO	Stopped listening on port 64829
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658089006095	geckodriver	INFO	Listening on 127.0.0.1:49327
+1658089009183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49328" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofile9GOfTZ"
+1658089011195	Marionette	INFO	Marionette enabled
+1658089011201	Marionette	INFO	Listening on port 49345
+WebDriver BiDi listening on ws://localhost:49328
+Read port: 49345
+1658089011434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofile9GOfTZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49328/devtools/browser/dda906f6-729b-4c8c-b639-d2b730c53161
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658089030802	Marionette	INFO	Stopped listening on port 49345
+!!! error running onStopped callback: TypeError: callback is not a function
+1658089119154	geckodriver	INFO	Listening on 127.0.0.1:49494
+1658089122199	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilevsXLlM"
+1658089124184	Marionette	INFO	Marionette enabled
+1658089124191	Marionette	INFO	Listening on port 49515
+WebDriver BiDi listening on ws://localhost:49495
+Read port: 49515
+1658089124415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilevsXLlM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49495/devtools/browser/334a663b-ea7b-41b9-8141-778d0b5d6548
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658089139563	Marionette	INFO	Stopped listening on port 49515
+!!! error running onStopped callback: TypeError: callback is not a function
+1658089185278	geckodriver	INFO	Listening on 127.0.0.1:49634
+1658089188377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileQ4xS1n"
+1658089190272	Marionette	INFO	Marionette enabled
+1658089190280	Marionette	INFO	Listening on port 49650
+WebDriver BiDi listening on ws://localhost:49635
+Read port: 49650
+1658089190505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileQ4xS1n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49635/devtools/browser/cfb7cfba-d07d-423b-8170-daa53e564b0f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658089209524	Marionette	INFO	Stopped listening on port 49650
+!!! error running onStopped callback: TypeError: callback is not a function
+1658093067351	geckodriver	INFO	Listening on 127.0.0.1:51659
+1658093070432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileb6poL4"
+1658093072347	Marionette	INFO	Marionette enabled
+1658093072354	Marionette	INFO	Listening on port 51678
+WebDriver BiDi listening on ws://localhost:51660
+Read port: 51678
+1658093072577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileb6poL4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51660/devtools/browser/52ad8fbe-3188-42e5-9068-d19c402e89d9
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658093091223	Marionette	INFO	Stopped listening on port 51678
+!!! error running onStopped callback: TypeError: callback is not a function
+1658093375820	geckodriver	INFO	Listening on 127.0.0.1:51929
+1658093378892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51930" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilemHhl4A"
+1658093380801	Marionette	INFO	Marionette enabled
+1658093380807	Marionette	INFO	Listening on port 51945
+WebDriver BiDi listening on ws://localhost:51930
+Read port: 51945
+1658093381034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofilemHhl4A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51930/devtools/browser/4a30e242-d5d4-4d11-91b7-01ce6b384068
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658093388943	Marionette	INFO	Stopped listening on port 51945
+1658093418684	geckodriver	INFO	Listening on 127.0.0.1:52018
+1658093421799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52019" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileCsIG3D"
+1658093423605	Marionette	INFO	Marionette enabled
+1658093423612	Marionette	INFO	Listening on port 52030
+WebDriver BiDi listening on ws://localhost:52019
+Read port: 52030
+1658093423835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\carre\\AppData\\Local\\Temp\\rust_mozprofileCsIG3D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52019/devtools/browser/12976dc3-8f42-4374-ad33-0f489a4230f2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mercap.auth0.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658093441610	Marionette	INFO	Stopped listening on port 52030
+!!! error running onStopped callback: TypeError: callback is not a function

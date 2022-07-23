@@ -44,12 +44,17 @@ if symbol:
     except:
         st.write("No se puedo loguear")
     try:
-        driver.implicitly_wait(20)
+        my_bar = st.progress(0)
+        for percent_complete in range(100):
+            time.sleep(0.1)
+            my_bar.progress(percent_complete + 1)
         paneles = WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "panel-body")))
+        i=0
         for panel in paneles:
-            st.markdown(panel.get_attribute('outerHTML'), unsafe_allow_html=True)
-        
+            if i==0 or i==3:
+                st.markdown(panel.get_attribute('outerHTML'), unsafe_allow_html=True)
+            i+=1
     except:
         st.write("No se pudo obtener panel")
-        
+    driver.close()
     

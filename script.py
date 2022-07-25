@@ -9,6 +9,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
 import streamlit as st
 import time
+import IOL2
+import pandas as pd
 with st.sidebar.form(key='my_form'):
     st.write("""
         ## Descargar data ON
@@ -22,15 +24,49 @@ if symbol:
     url = "https://bonds.mercapabbaco.com/bort/bondAnalysis?name="
     timeout = 20
 
-    st.title("Test Selenium")
+    st.title(f"INFO {symbol}")
+    #***************************** IOL ****************************
+    iol = IOL2.IOL("carrenogf","Cabina$123") # cambiar en producción
+    symbol_O = symbol[:-1]+"O"
+    symbol_D = symbol[:-1]+"D"
+    symbol_C = symbol[:-1]+"C"
+    papeles = [symbol_O,symbol_D,symbol_C]
+    if symbol not in papeles:
+        papeles.append(symbol)
+    print(papeles)
+    tabla_papeles = []
+    for papel in papeles:
+        try:
+            p = iol.precio(papel)
+            tabla_renglon = {'Ticker':papel,
+                            'Precio':p['ultimoPrecio'],
+                            'Moneda':p['moneda'],
+                            'Variación':p['variacion'],
+                            'Operaciones':p['cantidadOperaciones']}
+            tabla_papeles.append(tabla_renglon)
+        except:
+            papeles.remove(papel)
+            st.write(f'No se pudo obtener info del ticker {papel}')
+            pass
+    if len(tabla_papeles)>0:
+        tabla_df = pd.DataFrame(tabla_papeles)
+        st.write(tabla_df)
 
+    if symbol_O in papeles and symbol_D in papeles:
+        symbol_O_precio = float(tabla_df[tabla_df['Ticker']==symbol_O]['Precio'].replace(",",""))
+        symbol_D_precio = float(tabla_df[tabla_df['Ticker']==symbol_D]['Precio'].replace(",",""))
+        tc = round(symbol_O_precio/symbol_D_precio,2)
+        st.write(f'Tipo de Cambio: {tc}')
+
+    #*********************** SELENIUM para MAE **************************    
     firefoxOptions = Options()
-    #firefoxOptions.add_argument("--headless")
+    firefoxOptions.add_argument("--headless")
     service = Service(GeckoDriverManager().install())
     driver = webdriver.Firefox(
         options=firefoxOptions,
         service=service,
     )
+
     #abrir la pagina de mae buscando el ticker de la on
     driver.get(url+symbol)
     # detectar si no está logueado

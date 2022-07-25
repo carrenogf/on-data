@@ -26,7 +26,9 @@ if symbol:
 
     st.title(f"INFO {symbol}")
     #***************************** IOL ****************************
-    iol = IOL2.IOL("carrenogf","Cabina$123") # cambiar en producción
+    user_iol = st.secrets["user_iol"]
+    pass_iol = st.secrets["pass_iol"]
+    iol = IOL2.IOL(user_iol,pass_iol) # cambiar en producción
     symbol_O = symbol[:-1]+"O"
     symbol_D = symbol[:-1]+"D"
     symbol_C = symbol[:-1]+"C"
@@ -71,10 +73,12 @@ if symbol:
     driver.get(url+symbol)
     # detectar si no está logueado
     try:
+        mail_mae = st.secrets["mail_mae"]
+        pass_mae = st.secrets["pass_mae"]
         mail = WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.ID, "username")))
-        mail.send_keys("francisko.ca93@gmail.com") #ocultar en entorno
+        mail.send_keys(mail_mae) #ocultar en entorno
         pwd = WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.ID, "password")))
-        pwd.send_keys("Cabina123") #ocultar en entorno
+        pwd.send_keys(pass_mae) #ocultar en entorno
         pwd.send_keys(Keys.ENTER)
         
     except:

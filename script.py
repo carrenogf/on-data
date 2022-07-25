@@ -61,6 +61,7 @@ if symbol:
         st.write(f'Tipo de Cambio: {tc}')
 
     #*********************** SELENIUM para MAE **************************    
+    
     firefoxOptions = Options()
     firefoxOptions.add_argument("--headless")
     service = Service(GeckoDriverManager().install())

@@ -20,7 +20,7 @@ with st.sidebar.form(key='my_form'):
     st.write("Creado por Francisco Carreño")
 
 if symbol:
-
+    symbol = symbol.upper()
     url = "https://bonds.mercapabbaco.com/bort/bondAnalysis?name="
     timeout = 20
 

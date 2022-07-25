@@ -71,7 +71,10 @@ if symbol:
     )
 
     #abrir la pagina de mae buscando el ticker de la on
-    driver.get(url+symbol)
+    if symbol_D in papeles:
+        driver.get(url+symbol_D)
+    else:
+        driver.get(url+symbol)
     # detectar si no está logueado
     try:
         mail_mae = st.secrets["mail_mae"]
